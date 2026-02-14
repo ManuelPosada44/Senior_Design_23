@@ -1,0 +1,67 @@
+import serial
+import time
+import numpy as np
+import soundfile as sf
+import whisper
+
+# ----- SETTINGS -----
+PORT = "COM8"            # Your ESP32 port
+BAUD = 115200            # Must match Arduino
+SAMPLE_RATE = 16000      # Same as in your sketch
+DURATION_SEC = 5         # Target recording duration
+MODEL_NAME = "base"      # "tiny", "base", "small", "medium", "large"
+OUT_WAV = "capture.wav"
+# ---------------------
+
+def main():
+    print(f"Opening {PORT} @ {BAUD} ...")
+    ser = serial.Serial(PORT, BAUD, timeout=1)
+    time.sleep(1.0)
+    ser.reset_input_buffer()
+
+    total_samples = SAMPLE_RATE * DURATION_SEC
+    samples = []
+
+    print(f"Collecting ~{DURATION_SEC}s of audio ({total_samples} samples)...")
+    start_time = time.time()
+    while len(samples) < total_samples:
+        line = ser.readline().decode(errors="ignore").strip()
+        if not line:
+            continue
+        try:
+            val = int(line)
+            samples.append(val)
+        except ValueError:
+            # ignore any text or noise
+            pass
+
+        # show progress every 0.25s
+        if len(samples) % 1000 == 0:
+            pct = 100 * len(samples) / total_samples
+            print(f"\rCollected {len(samples)}/{total_samples} ({pct:.1f}%)", end="")
+
+    ser.close()
+    print("\n✅ Done reading samples.")
+    print(f"Captured {len(samples)} samples in {time.time() - start_time:.1f}s")
+
+    # Convert to numpy array
+    raw = np.array(samples, dtype=np.int32)
+
+    # Scale & clip to int16
+    raw = np.clip(raw >> 8, -32768, 32767).astype(np.int16)
+
+    # Save WAV file
+    sf.write(OUT_WAV, raw, SAMPLE_RATE, subtype="PCM_16")
+    print(f"Wrote {OUT_WAV} ({len(raw)/SAMPLE_RATE:.2f}s)\n")
+
+    # Transcribe with Whisper
+    print("Loading Whisper model...")
+    model = whisper.load_model(MODEL_NAME)
+
+    print("Transcribing...")
+    result = model.transcribe(OUT_WAV, language=None)
+    print("\n=== TRANSCRIPT ===")
+    print(result.get("text", "").strip())
+
+if __name__ == "__main__":
+    main()
