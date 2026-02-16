@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=+3V3_REG Pin=R7-2
+Removed Pin From Net: NetName=+3V3_REG Pin=R9-2
+Change Net Name : Old Net Name=+3V3_REG New Net Name=NetC2_2
+Added Pin To Net: NetName=+3V3_REG Pin=R7-2
+Added Pin To Net: NetName=+3V3_REG Pin=R9-2
+Added Net: Name=+3V3_REG

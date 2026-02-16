@@ -1,0 +1,151 @@
+Removed Pin From Net: NetName=GND Pin=C7-1
+Removed Pin From Net: NetName=GPIO11 Pin=C7-2
+Removed Pin From Net: NetName=BTN_GPIO0 Pin=R8-1
+Removed Pin From Net: NetName=GPIO0 Pin=R8-2
+Removed Pin From Net: NetName=GPIO11 Pin=U2-15
+Change Component Designator: OldDesignator=C1 NewDesignator=C?
+Change Component Designator: OldDesignator=C2 NewDesignator=C?
+Change Component Designator: OldDesignator=C3 NewDesignator=C?
+Change Component Designator: OldDesignator=C4 NewDesignator=C?
+Change Component Designator: OldDesignator=C5 NewDesignator=C?
+Change Component Designator: OldDesignator=C6 NewDesignator=C?
+Change Component Designator: OldDesignator=C8 NewDesignator=C?
+Change Component Designator: OldDesignator=C9 NewDesignator=C?
+Change Component Designator: OldDesignator=C10 NewDesignator=C?
+Change Component Designator: OldDesignator=D1 NewDesignator=D?
+Change Component Designator: OldDesignator=D2 NewDesignator=D?
+Change Component Designator: OldDesignator=D3 NewDesignator=D?
+Change Component Designator: OldDesignator=D4 NewDesignator=D?
+Change Component Designator: OldDesignator=D5 NewDesignator=D?
+Change Component Designator: OldDesignator=D6 NewDesignator=D?
+Change Component Designator: OldDesignator=D7 NewDesignator=D?
+Change Component Designator: OldDesignator=D8 NewDesignator=D?
+Change Component Designator: OldDesignator=D9 NewDesignator=D?
+Change Component Designator: OldDesignator=D10 NewDesignator=D?
+Change Component Designator: OldDesignator=D11 NewDesignator=D?
+Change Component Designator: OldDesignator=D12 NewDesignator=D?
+Change Component Designator: OldDesignator=D13 NewDesignator=D?
+Change Component Designator: OldDesignator=D14 NewDesignator=D?
+Change Component Designator: OldDesignator=D15 NewDesignator=D?
+Change Component Designator: OldDesignator=J1 NewDesignator=J?
+Change Component Designator: OldDesignator=J2 NewDesignator=J?
+Change Component Designator: OldDesignator=J3 NewDesignator=J?
+Change Component Designator: OldDesignator=J4 NewDesignator=J?
+Change Component Designator: OldDesignator=J5 NewDesignator=J?
+Change Component Designator: OldDesignator=J6 NewDesignator=J?
+Change Component Designator: OldDesignator=Q1 NewDesignator=Q?
+Change Component Designator: OldDesignator=Q2 NewDesignator=Q?
+Change Component Designator: OldDesignator=R1 NewDesignator=R?
+Change Component Designator: OldDesignator=R2 NewDesignator=R?
+Change Component Designator: OldDesignator=R3 NewDesignator=R?
+Change Component Designator: OldDesignator=R4 NewDesignator=R?
+Change Component Designator: OldDesignator=R5 NewDesignator=R?
+Change Component Designator: OldDesignator=R6 NewDesignator=R?
+Change Component Designator: OldDesignator=R7 NewDesignator=R?
+Change Component Designator: OldDesignator=R9 NewDesignator=R?
+Change Component Designator: OldDesignator=R10 NewDesignator=R?
+Change Component Designator: OldDesignator=R11 NewDesignator=R?
+Change Component Designator: OldDesignator=R12 NewDesignator=R?
+Change Component Designator: OldDesignator=R13 NewDesignator=R?
+Change Component Designator: OldDesignator=R14 NewDesignator=R?
+Change Component Designator: OldDesignator=R15 NewDesignator=R?
+Change Component Designator: OldDesignator=R16 NewDesignator=R?
+Change Component Designator: OldDesignator=R17 NewDesignator=R?
+Change Component Designator: OldDesignator=R18 NewDesignator=R?
+Change Component Designator: OldDesignator=R19 NewDesignator=R?
+Change Component Designator: OldDesignator=SW1 NewDesignator=SW?
+Change Component Designator: OldDesignator=SW2 NewDesignator=SW?
+Change Component Designator: OldDesignator=SW3 NewDesignator=SW?
+Change Component Designator: OldDesignator=SW4 NewDesignator=SW?
+Change Component Designator: OldDesignator=U1 NewDesignator=U?
+Change Component Designator: OldDesignator=U2 NewDesignator=U?
+Change Component Designator: OldDesignator=U3 NewDesignator=U?
+Change Component Designator: OldDesignator=U4 NewDesignator=U?
+Change Component Designator: OldDesignator=U5 NewDesignator=U?
+Change Component Designator: OldDesignator=U6 NewDesignator=U?
+Change Component Designator: OldDesignator=U7 NewDesignator=U?
+Added Component: Designator=R?(RES_1220_SUS-L)
+Add component (AddParameter): Name = "Case Code (Imperial)"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case Code (Metric)"; Value = "2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Case/Package"; Value = "0805"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Category"; Value = "Chip SMD Resistors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-182148308.pdf?src-supplier=IHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-182148308.pdf?src-supplier=IHS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-104167497.pdf?src-supplier=Upverter"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-104167497.pdf?src-supplier=Upverter"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-62085167.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-62085167.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-12510102.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-12510102.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5Description"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-12510050.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink5URL"; Value = "https://datasheet.octopart.com:443/RG2012Q-270-D-T5-Susumu-datasheet-12510050.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6Description"; Value = "https://datasheet.octopart.com/RG2012Q-270-D-T5-Susumu-datasheet-12509734.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink6URL"; Value = "https://datasheet.octopart.com/RG2012Q-270-D-T5-Susumu-datasheet-12509734.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Composition"; Value = "Thin Film"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Country of Origin"; Value = "Mainland China, Japan"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Export Control Classification Number (ECCN) Code"; Value = "EAR99"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Harmonized Tariff Schedule (HTS) Code"; Value = "8533.21.00.30"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "400µm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Introduction Date"; Value = "2006-03-30"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "2mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lifecycle Status"; Value = "Production"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Susumu"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "RG2012Q-270-D-T5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Terminals"; Value = "2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Tape & Reel (TR)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Dissipation"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Rating"; Value = "125mW"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing"; Value = "1=0.1, 10=0.055, 25=0.0508, 50=0.048, 100=0.0453, 250=0.04204, 500=0.03978, 1000=0.03768 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock"; Value = "8968"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "DigiKey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number"; Value = "408-RG2012Q-270-D-T5CT-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Temperature Coefficient"; Value = "50ppm/°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Tolerance"; Value = "0.5%"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "27O"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "150V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "1.25mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Working Voltage"; Value = "150V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GPIO11 Pin=R?-1
+Added Pin To Net: NetName=NetC2_2 Pin=R?-2
+Added Pin To Net: NetName=NetC2_2 Pin=R?-2
+Added Pin To Net: NetName=NetC2_2 Pin=R?-2
+Added Pin To Net: NetName=NetC2_2 Pin=R?-2
+Added Pin To Net: NetName=NetC2_2 Pin=R?-2
+Added Pin To Net: NetName=NetC2_2 Pin=R?-2
+Change Net Name : Old Net Name=GPIO11 New Net Name=NetD?_2
+Change Net Name : Old Net Name=NetC1_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetC9_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetD1_2 New Net Name=NetD?_2
+Change Net Name : Old Net Name=NetD2_2 New Net Name=NetD?_2
+Change Net Name : Old Net Name=NetD5_2 New Net Name=NetD?_2
+Change Net Name : Old Net Name=NetJ3_A5 New Net Name=NetJ?_A5
+Change Net Name : Old Net Name=NetJ3_A6 New Net Name=NetJ?_A6
+Change Net Name : Old Net Name=NetJ3_A7 New Net Name=NetJ?_A7
+Change Net Name : Old Net Name=NetJ3_B5 New Net Name=NetJ?_B5
+Change Net Name : Old Net Name=NetJ3_S1 New Net Name=NetJ?_S1
+Change Net Name : Old Net Name=NetJ3_S2 New Net Name=NetJ?_S2
+Change Net Name : Old Net Name=NetJ3_S3 New Net Name=NetJ?_S3
+Change Net Name : Old Net Name=NetJ3_S4 New Net Name=NetJ?_S4
+Change Net Name : Old Net Name=NetJ4_1 New Net Name=NetJ?_1
+Change Net Name : Old Net Name=NetJ4_3 New Net Name=NetJ?_3
+Change Net Name : Old Net Name=NetJ6_3 New Net Name=NetJ?_3
+Change Net Name : Old Net Name=NetJ6_4 New Net Name=NetJ?_4
+Change Net Name : Old Net Name=NetQ1_1 New Net Name=NetQ?_1
+Change Net Name : Old Net Name=NetQ2_1 New Net Name=NetQ?_1
+Change Net Name : Old Net Name=NetR1_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR4_1 New Net Name=NetR?_1
+Change Net Name : Old Net Name=NetR18_2 New Net Name=NetR?_2
+Change Net Name : Old Net Name=NetR19_2 New Net Name=NetR?_2
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Added Pin To Net: NetName=GPIO11 Pin=R?-2
+Added Pin To Net: NetName=GPIO11 Pin=U?-15
+Added Net: Name=GPIO11
