@@ -1,0 +1,4 @@
+Output: BOM Checks Report
+Type  : BOM
+From  : Project [PCB_Project.PrjPcb]
+   Generated File[BOM Checks Report-PCB_Project.html]

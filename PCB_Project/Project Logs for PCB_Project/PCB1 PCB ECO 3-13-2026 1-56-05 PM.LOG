@@ -1,0 +1,3 @@
+Added Pin To Net: NetName=GPIO44 Pin=J2-1
+Added Pin To Net: NetName=GPIO43 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3

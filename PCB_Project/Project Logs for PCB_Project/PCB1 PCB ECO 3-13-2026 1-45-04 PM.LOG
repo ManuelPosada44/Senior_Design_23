@@ -1,0 +1,72 @@
+Removed Pin From Net: NetName=GPIO43 Pin=J2-1
+Removed Pin From Net: NetName=GPIO44 Pin=J2-2
+Change Component Footprint: Designator=J2 Old Footprint=CONN2_M20-999_1X2_HRW New Footprint=61300311121
+Change Component Comment : Designator=J2 Old Comment=M20-9990246 New Comment=61300311121
+Change Component Designator: OldDesignator=R8 NewDesignator=R9
+Change Component Designator: OldDesignator=R9 NewDesignator=R10
+Change Component Designator: OldDesignator=R10 NewDesignator=R11
+Change Component Designator: OldDesignator=R11 NewDesignator=R12
+Change Component Designator: OldDesignator=R12 NewDesignator=R13
+Change Component Designator: OldDesignator=R13 NewDesignator=R14
+Change Component Designator: OldDesignator=R14 NewDesignator=R15
+Change Component Designator: OldDesignator=R15 NewDesignator=R16
+Change Component Designator: OldDesignator=R16 NewDesignator=R17
+Change Component Designator: OldDesignator=R17 NewDesignator=R18
+Change Component Designator: OldDesignator=R18 NewDesignator=R19
+Change Component Designator: OldDesignator=R19 NewDesignator=R20
+Change Component Designator: OldDesignator=R20 NewDesignator=R8
+Change component parameters: Designator = "J2" ("J2"); Footprint = "CONN2_M20-999_1X2_HRW"; UniqueID = "\ATDUEUBY\KXAFSQUR" ("\ATDUEUBY\KXAFSQUR")
+Change component parameters (AddParameter): Name = "Category"; Value = "Headers and Wire Housings"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.octopart.com:443/61300311121-Wurth-Elektronik-datasheet-168684096.pdf?src-supplier=Wurth+Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.octopart.com:443/61300311121-Wurth-Elektronik-datasheet-168684096.pdf?src-supplier=Wurth+Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2Description"; Value = "https://datasheet.octopart.com:443/61300311121-W%C3%BCrth-Elektronik-datasheet-44382959.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink2URL"; Value = "https://datasheet.octopart.com:443/61300311121-W%C3%BCrth-Elektronik-datasheet-44382959.pdf?src-supplier=Future+Electronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3Description"; Value = "https://datasheet.octopart.com:443/61300311121-W%C3%BCrth-Elektronik-datasheet-149524047.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink3URL"; Value = "https://datasheet.octopart.com:443/61300311121-W%C3%BCrth-Elektronik-datasheet-149524047.pdf?src-supplier=Farnell"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4Description"; Value = "https://datasheet.octopart.com:443/61300311121-W%C3%BCrth-Elektronik-datasheet-21154836.pdf?src-supplier=element14+APAC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink4URL"; Value = "https://datasheet.octopart.com:443/61300311121-W%C3%BCrth-Elektronik-datasheet-21154836.pdf?src-supplier=element14+APAC"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Mating Length"; Value = "5.9944mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Resistance"; Value = "20mO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current Rating"; Value = "3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Gender"; Value = "Male"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "8.94mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Resistance"; Value = "1GO"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "7.62mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Wurth Elektronik"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "61300311121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "Through Hole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Contacts"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating Supply Voltage"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Orientation"; Value = "Vertical"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pins"; Value = "3"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing"; Value = "100=0.087, 500=0.086, 1000=0.084 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Compliant"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock"; Value = "1092"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier"; Value = "Newark"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number"; Value = "61300311121"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "250V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GPIO44 Pin=J2-1
+Added Pin To Net: NetName=GPIO43 Pin=J2-2
+Added Pin To Net: NetName=GND Pin=J2-3
+Change Net Name : Old Net Name=NetR18_2 New Net Name=NetR19_2
+Change Net Name : Old Net Name=NetR19_2 New Net Name=NetR20_2
+Change Net Color : Old Net Color=RGB(0, 191, 0) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=Yellow New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
+Change Net Color : Old Net Color=RGB(158, 161, 117) New Net Color=Default
